@@ -9,16 +9,8 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
-/**
- * FXML Controller class
- *
- * @author Sakib
- */
 public class AddStudentController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
     
     @FXML
     private void saveButtonAction(){}
@@ -26,7 +18,7 @@ public class AddStudentController implements Initializable {
     private void resetButtonAction(){}
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }    
     
 }

@@ -10,7 +10,7 @@
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="433.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddStudent.AddStudentController">
    <children>
-      <HBox prefHeight="41.0" prefWidth="600.0" spacing="9.0">
+      <HBox fx:id="mainContent" prefHeight="41.0" prefWidth="600.0" spacing="9.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
                <HBox.margin>

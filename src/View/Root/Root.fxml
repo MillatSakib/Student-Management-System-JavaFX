@@ -46,6 +46,6 @@
       </VBox>
    </left>
    <center>
-      <VBox prefHeight="375.0" prefWidth="606.0" BorderPane.alignment="CENTER" />
+      <VBox fx:id="mainContent" prefHeight="375.0" prefWidth="606.0" BorderPane.alignment="CENTER" />
    </center>
 </BorderPane>
