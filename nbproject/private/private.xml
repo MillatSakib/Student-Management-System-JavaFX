@@ -3,16 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/View/AddStudent/addstudent.css</file>
-            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/View/Root/root.css</file>
             <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/Controller/Main.java</file>
-            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/View/AllStudent/AllStudent.fxml</file>
-            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/Controller/Root/RootController.java</file>
-            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/Controller/AddStudentData.java</file>
-            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/View/Root/Root.fxml</file>
+            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/Model/MYSQLDatabaseOP.java</file>
             <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/Controller/AddStudent/AddStudentController.java</file>
-            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/src/View/AddStudent/AddStudent.fxml</file>
-            <file>file:/C:/Users/Sakib/Pictures/Student-Management-System/nbproject/jfx-impl.xml</file>
         </group>
     </open-files>
 </project-private>

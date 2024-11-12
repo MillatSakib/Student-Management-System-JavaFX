@@ -5,6 +5,8 @@
 package Controller;
 
 
+import Model.MYSQLDatabaseOP;
+import java.sql.SQLException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -23,6 +25,22 @@ public class Main extends Application {
     }
     
     public static void main(String[] args) {
+        
+        String URL = "jdbc:mysql://localhost:3306";
+        String USERNAME = "root";
+        String PASSWORD = "";
+        
+        MYSQLDatabaseOP dbOp = new MYSQLDatabaseOP(URL, USERNAME, PASSWORD);
+
+        try {
+            
+            dbOp.handleQuery("vugijugi", "SELECT NAME FROM students");
+            
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    
+    
         launch(args);
     }
     
