@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="251.0" prefWidth="597.0" translateX="31.0" translateY="27.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AllStudent.AllStudentController">
+   <children>
+      <TableView fx:id="studentTable" layoutY="-1.0" prefHeight="250.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="nameColl" prefWidth="124.0" text="Name" />
+          <TableColumn fx:id="emailColl" prefWidth="152.0" text="Email" />
+            <TableColumn fx:id="depertmentColl" prefWidth="152.0" text="Department" />
+            <TableColumn fx:id="addressColl" prefWidth="171.0" text="Address" />
+        </columns>
+      </TableView>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

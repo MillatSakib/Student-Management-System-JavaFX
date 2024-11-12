@@ -24,9 +24,23 @@ public class RootController implements Initializable {
      * Initializes the controller class.
      */
     @FXML
-    private void addStudent(){}
+    private void addStudent(){
+    try{
+        Parent pane = FXMLLoader.load(getClass().getResource("/View/AddStudent/AddStudent.fxml"));
+        mainContent.getChildren().setAll(pane);
+        }catch(IOException ex){
+            System.out.println(ex);
+        }
+    }
     @FXML
-    private void showAllStudent(){}
+    private void showAllStudent(){
+    try{
+        Parent pane = FXMLLoader.load(getClass().getResource("/View/AllStudent/AllStudent.fxml"));
+        mainContent.getChildren().setAll(pane);
+        }catch(IOException ex){
+            System.out.println(ex);
+        }
+    }
         @FXML
     private VBox mainContent;
     
